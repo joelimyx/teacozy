@@ -36,18 +36,36 @@ header img{
     background-size: cover;
     margin: 0 2%;
 }
-#mis-div{
+.text-div{
     width: 100%;
     display: inline-flex;
     flex-direction: column;
 }
-#mis-div h2{
+.text-div h2{
     margin: 0 auto;
     padding: 20px 0;
 }
 
-#mis-div h4{
+.text-div h4{
     margin: 0 auto;
     padding: 10px 0;
+    text-align: center;
+}
+
+#img-cont{
+    margin: 0 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img-list{
+    margin: 10px 20px;
+}
+.img-list img{
+    height: 200px;
+    width: 300px;
+}
+.img-list h4{
+    margin-top: 10px;
     text-align: center;
 }
