@@ -53,7 +53,7 @@ header img{
 }
 
 #img-cont{
-    margin: 0 10%;
+    margin: 0 8%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -68,4 +68,36 @@ header img{
 .img-list h4{
     margin-top: 10px;
     text-align: center;
+}
+
+#location-cont{
+    height: 500px;
+    margin: 0 2%;
+    background-image: url("img/img-locations-background.jpg");
+    background-position: 50% 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+#location-cont h2{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.0);
+    padding-top: 5%;
+    margin-bottom: 5px;
+}
+#location-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+.location-item{
+    opacity: 1;
+    width: 300px;
+    background-color: black;
+    margin: 10px 20px;
+}
+.location-item *{
+    text-align: center;
+    margin: 40px auto;
 }
