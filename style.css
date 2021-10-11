@@ -101,3 +101,17 @@ header img{
     text-align: center;
     margin: 40px auto;
 }
+footer{
+    height: 200px;
+    margin-bottom: 20px;
+}
+footer *{
+    text-align: center;
+}
+footer h3{
+    font-size: 1.5rem;
+}
+#copy{
+    text-align: left;
+    margin-left: 20px;
+}
